@@ -17,7 +17,7 @@ export default function Projects() {
       />
       <ProjectCard 
         projectName="PORTFOLIO"
-        githubRepo="https://github.com/applepie7864/website"
+        githubRepo="https://github.com/applepie7864/portfolio-2023"
         mainTool="React"
         projectDescription="Old interactive portfolio from 2023"
       />
