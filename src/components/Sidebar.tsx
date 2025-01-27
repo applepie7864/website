@@ -1,4 +1,3 @@
-import Download from "../assets/svg/Download"
 import Github from "../assets/svg/Github"
 import Linkedin from "../assets/svg/Linkedin"
 import Navigator from "./Navigator"
@@ -13,10 +12,6 @@ export default function Sidebar() {
             </div>
             <Navigator />
             <div className="w-full flex flex-row items-center justify-start gap-4">
-                <a href={require('../assets/resume.pdf')} className="w-28 h-10 flex items-center justify-center gap-1 border border-zinc-700 rounded-md shadow-md hover:shadow-inner" target = "_blank">
-                    <div className="text-md text-zinc-700 bg-transparent">Resume</div>
-                    <Download />
-                </a>
                 <a href="https://www.linkedin.com/in/anniewguo/" target="_blank"><Linkedin /></a>
                 <a href="https://github.com/applepie7864" target="_blank"><Github /></a>
             </div>

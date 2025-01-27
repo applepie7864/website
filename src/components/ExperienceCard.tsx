@@ -9,7 +9,9 @@ interface ExperienceCardProps {
 
 export default function ExperienceCard(props: ExperienceCardProps) {
     var url = ""
-    if (props.companyName == "DESCARTES") {
+    if (props.companyName == "FORD PRO") {
+        url = require("../assets/imgs/ford.png")
+    } else if (props.companyName == "DESCARTES") {
         url = require("../assets/imgs/descartes.png")
     } else if (props.companyName == "EON MEDIA") {
         url = require("../assets/imgs/eon.png")
