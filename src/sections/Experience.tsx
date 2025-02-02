@@ -5,6 +5,14 @@ export default function Experience() {
   return (
     <section id="experience" className='pl-[34.5rem] pr-20 pt-16 flex flex-col items-center justify-center gap-4'>
       <ExperienceCard 
+        website="https://www.amazon.ca/"
+        companyName='AMAZON'
+        position='Software Engineer Intern' 
+        date='May 2025 - Aug 2025'
+        location='Vancouver, BC, Canada'
+        description='Incoming ...'
+      />
+      <ExperienceCard 
         website="https://www.fordpro.com/en-us/"
         companyName='FORD PRO'
         position='Software Engineer Intern' 
