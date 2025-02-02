@@ -43,14 +43,14 @@ const SpotifyCard = () => {
     }, []);
 
     return (
-        <div className="w-60 h-12 p-2 flex flex-row items-center justify-left rounded-full shadow-md border-zinc-300 border-2 gap-2">
+        <div className="w-60 min-h-12 p-3 flex flex-row items-center justify-center rounded-full shadow-md border-zinc-300 border-2 gap-3">
             <a href="https://open.spotify.com/user/5xb1ufphwez97tv2q5yu50eb0?si=dab77ec091e0407d" target='_blank' className='hover:scale-105'>
                 <Spotify />
             </a>
             <div>
-                <div className='text-zinc-500 text-xs'>Recently Played</div>
-                <div className='text-zinc-700 text-xs m'>{ track } by { artist }</div>
-            </div>
+                <div className='text-zinc-500 text-xs w-40'>Recently Played</div>
+                <div className='text-zinc-700 text-xs m w-40 text-wrao'>{ track } by { artist }</div>
+            </div> 
         </div>
     )
 }
