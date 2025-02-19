@@ -1,0 +1,36 @@
+{
+    "experiences": [
+        { 
+            "company": "Amazon", 
+            "title": "Software Engineer Intern",  
+            "date": "Summer 2025",
+            "location": "Vancouver, BC",
+            "website": "https://www.amazon.ca/",
+            "logo": "https://i.pinimg.com/originals/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg"
+        },
+        { 
+            "company": "Ford Pro", 
+            "title": "Software Engineer Intern",  
+            "date": "Winter 2025",
+            "location": "Toronto, ON",
+            "website": "https://fordpro.ca/en-ca/",
+            "logo": "https://yt3.googleusercontent.com/LIu_b199C_PtSHUpO2_TbAgnEvANWl8qWFa_eJSN7Moh-2dyPqRxVcNPMd42Yj-65B0gyoww=s900-c-k-c0x00ffffff-no-rj"
+        },
+        { 
+            "company": "Descartes Systems Group", 
+            "title": "Software Engineer Intern",  
+            "date": "Summer 2024",
+            "location": "Waterloo, ON",
+            "website": "https://www.descartes.com/home",
+            "logo": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/042016/untitled-1_203.png?itok=payCIdD4"
+        },
+        { 
+            "company": "Eon Media", 
+            "title": "Software Engineer Intern",  
+            "date": "Fall 2023",
+            "location": "Toronto, ON",
+            "website": "https://eonmedia.ai/",
+            "logo": "https://www.atsc.org/wp-content/uploads/2023/07/EON_Media.png"
+        }
+    ]
+}

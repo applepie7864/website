@@ -1,5 +1,5 @@
 import Sidebar from './components/Sidebar';
-import Experience from './sections/Experience';
+import Experience from './components/sections/Experience';
 import Projects from './sections/Projects';
 import Footer from './sections/Footer'
 import Contact from './sections/Contact';

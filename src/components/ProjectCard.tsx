@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../assets/imgs/apple.png'
+import '../assets/img/apple.png'
 import Export from '../assets/svg/Export';
 
 interface ProjectCardProps {
@@ -12,17 +12,17 @@ interface ProjectCardProps {
 export default function ProjectCard(props: ProjectCardProps) {
     var url = ""
     if (props.projectName == "APPLE WEBSITE") {
-        url = require("../assets/imgs/apple.png")
+        url = require("../assets/img/apple.png")
     } else if (props.projectName == "CC3K") {
-        url = require("../assets/imgs/cc3k.png")
+        url = require("../assets/img/cc3k.png")
     } else if (props.projectName == "DOCUVERSE") {
-        url = require("../assets/imgs/docuverse.png")
+        url = require("../assets/img/docuverse.png")
     } else if (props.projectName == "ISPY") {
-        url = require("../assets/imgs/ispy.png")
+        url = require("../assets/img/ispy.png")
     } else if (props.projectName == "2048") {
-        url = require("../assets/imgs/2048.png")
+        url = require("../assets/img/2048.png")
     } else if (props.projectName == "PORTFOLIO") {
-        url = require("../assets/imgs/portfolio.png")
+        url = require("../assets/img/portfolio.png")
     }
 
     return (
