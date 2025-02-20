@@ -1,4 +1,16 @@
 {
+    "hello": "Hi, I'm Annie 👋",
+    "description": "I'm passionate about leveraging technology to innovate and solve complex problems.",
+    "education": [
+        {
+            "school": "University of Waterloo",
+            "graduation": "May 2026",
+            "degree": "Bachelor of Computer Science",
+            "gpa": "3.7",
+            "website": "https://uwaterloo.ca/",
+            "logo": ""
+        }
+    ],
     "experiences": [
         { 
             "company": "Amazon", 
@@ -6,7 +18,7 @@
             "date": "Summer 2025",
             "location": "Vancouver, BC",
             "website": "https://www.amazon.ca/",
-            "logo": "https://i.pinimg.com/originals/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg"
+            "logo": ""
         },
         { 
             "company": "Ford Pro", 
@@ -14,7 +26,7 @@
             "date": "Winter 2025",
             "location": "Toronto, ON",
             "website": "https://fordpro.ca/en-ca/",
-            "logo": "https://yt3.googleusercontent.com/LIu_b199C_PtSHUpO2_TbAgnEvANWl8qWFa_eJSN7Moh-2dyPqRxVcNPMd42Yj-65B0gyoww=s900-c-k-c0x00ffffff-no-rj"
+            "logo": ""
         },
         { 
             "company": "Descartes Systems Group", 
@@ -22,7 +34,7 @@
             "date": "Summer 2024",
             "location": "Waterloo, ON",
             "website": "https://www.descartes.com/home",
-            "logo": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/042016/untitled-1_203.png?itok=payCIdD4"
+            "logo": ""
         },
         { 
             "company": "Eon Media", 
@@ -30,7 +42,68 @@
             "date": "Fall 2023",
             "location": "Toronto, ON",
             "website": "https://eonmedia.ai/",
-            "logo": "https://www.atsc.org/wp-content/uploads/2023/07/EON_Media.png"
+            "logo": ""
         }
-    ]
+    ],
+    "extracurriculars": [
+        {
+            "group": "UW Blueprint",
+            "position": "Project Lead",
+            "date": "Jan 2025 - Present",
+            "logo": "",
+            "link": "https://uwblueprint.org/"
+        },
+        {
+            "group": "UW Data Science Club",
+            "position": "Developer",
+            "date": "September 2024 - Present",
+            "logo": "",
+            "link": "https://www.uwdatascience.ca/"
+        }
+    ],
+    "projects": [
+        {
+            "name": "2048",
+            "description": "Object oriented implementation of the popular webgame 2048",
+            "repo": "https://github.com/applepie7864/2048",
+            "image": "",
+            "technologies": ["Unity", "C#"]
+        },
+        {
+            "name": "ISPY",
+            "description": "Custom face recognition model integrated into a webcam application",
+            "repo": "https://github.com/applepie7864/ispy",
+            "image": "",
+            "technologies": ["Keras", "OpenCV", "React", "Google Cloud", "Javascript", "Python"]
+        },
+        {
+            "name": "Docuverse",
+            "description": "AI chatbot application for querying your documents",
+            "repo": "https://github.com/applepie7864/docuverse",
+            "image": "",
+            "technologies": ["Langchain", "HuggingFace", "Streamlit", "Python"]
+        },
+        {
+            "name": "CC3K",
+            "description": "Terminal based dungeon crawling video game inspired by Rogue",
+            "repo": "https://github.com/applepie7864/cc3k",
+            "image": "",
+            "technologies": ["C++"]
+        },
+        {
+            "name": "Apple Remake",
+            "description": "Imitation of Apple's animated website",
+            "repo": "https://github.com/applepie7864/apple-remake",
+            "image": "",
+            "technologies": ["HTML", "CSS", "Javascript", "Blender", "GSAP"]
+        }
+    ],
+    "links": {
+        "linkedin": "https://www.linkedin.com/in/anniewguo/",
+        "github": "https://github.com/applepie7864",
+        "email": "mailto:anniewenqingguo@gmail.com",
+        "spotify": "https://open.spotify.com/user/5xb1ufphwez97tv2q5yu50eb0?si=bc90053bbe324a50",
+        "instagram": "https://www.instagram.com/anniewguo/",
+        "website": "https://anniewguo.com/"
+    }
 }
