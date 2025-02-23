@@ -1,17 +1,9 @@
-import Sidebar from './components/Sidebar';
-import Experience from './components/sections/Experience';
-import Projects from './sections/Projects';
-import Footer from './sections/Footer'
-import Contact from './sections/Contact';
+import SpotifyCard from "./components/SpotifyCard";
 
 function App() {
   return (
-    <div className='pb-16'>
-      <Sidebar />
-      <Experience />
-      <Projects />
-      <Contact />
-      <Footer />
+    <div>
+      <SpotifyCard />
     </div>
   );
 }

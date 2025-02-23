@@ -1,22 +1,27 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import querystring from 'querystring';
 import axios from 'axios';
 import Spotify from '../assets/svg/Spotify';
 var Buffer = require('buffer').Buffer;
 
+
 const SpotifyCard = () => {
-    const RECENTLY_PLAYED_ENDPOINT = "https://api.spotify.com/v1/me/player/recently-played";
-    const TOKEN_ENDPOINT = "https://accounts.spotify.com/api/token";
+    const recently_played_endpoint = process.env.REACT_APP_SPOTIFY_RECENTLY_PLAYED_ENDPOINT ?? "";
+    const token_endpoint = process.env.REACT_APP_SPOTIFY_TOKEN_ENDPOINT ?? "";
     const client_id = process.env.REACT_APP_SPOTIFY_CLIENT_ID ?? "";
     const client_secret = process.env.REACT_APP_SPOTIFY_CLIENT_SECRET ?? "";
     const refresh_token = process.env.REACT_APP_SPOTIFY_REFRESH_TOKEN ?? "";
+
     const basic = (Buffer(client_id + ':' + client_secret).toString('base64'));
 
     const [artist, setArtist] = useState("");
     const [track, setTrack] = useState("");
-    const [spotifyLoading, setSpotifyLoading] = useState(true);
+
+    const [error, setError] = useState(false);
+    const [loading, setLoading] = useState(true);
+
     useEffect(() => {
-        axios(TOKEN_ENDPOINT, {
+        axios(token_endpoint, {
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
                 'Authorization': `Basic ` + basic
@@ -26,32 +31,51 @@ const SpotifyCard = () => {
                 refresh_token
             }),
             method: 'POST'
-        }).then((tokenResponse) => {
-            axios(RECENTLY_PLAYED_ENDPOINT, {
+        }).then((token_response) => {
+            axios(recently_played_endpoint, {
                 method: 'GET',
-                headers: { 'Authorization': 'Bearer ' + tokenResponse.data.access_token }
-            }).then((recentlyPlayedResponse) => {
-                setArtist(recentlyPlayedResponse.data.items[0].track.album.artists[0].name)
-                setTrack(recentlyPlayedResponse.data.items[0].track.name);
-                setSpotifyLoading(false)
-            }).catch(recentlyPlayedError => {
-                console.log(recentlyPlayedError)
+                headers: { 'Authorization': 'Bearer ' + token_response.data.access_token }
+            }).then((recently_played_response) => {
+                console.log(recently_played_response)
+                setArtist(recently_played_response.data.items[0].track.album.artists[0].name)
+                setTrack(recently_played_response.data.items[0].track.name);
+                setLoading(false)
+            }).catch((recently_played_error) => {
+                console.log(recently_played_error)
+                setLoading(false)
+                setError(true)
             });
-        }).catch(tokenError => {
-            console.log(tokenError)
+        }).catch((token_error) => {
+            console.log(token_error)
+            setLoading(false)
+            setError(true)
         });
     }, []);
 
     return (
-        <div className="w-60 min-h-12 p-3 flex flex-row items-center justify-center rounded-full shadow-md border-zinc-300 border-2 gap-3">
-            <a href="https://open.spotify.com/user/5xb1ufphwez97tv2q5yu50eb0?si=dab77ec091e0407d" target='_blank' className='hover:scale-105'>
-                <Spotify />
-            </a>
-            <div>
-                <div className='text-zinc-500 text-xs w-40'>Recently Played</div>
-                <div className='text-zinc-700 text-xs m w-40 text-wrao'>{ track } by { artist }</div>
-            </div> 
-        </div>
+        <a 
+            href="https://open.spotify.com/user/5xb1ufphwez97tv2q5yu50eb0?si=dab77ec091e0407d" 
+            target='_blank' 
+            className="w-72 min-h-12 p-4 flex flex-row items-center justify-center rounded-full border-gray-800 border-2 gap-4 hover:scale-[1.01] cursor-pointer"
+        >
+            <Spotify />
+            { loading ? (
+                <div className='w-48 text-xs'>
+                    <div className='text-gray-400 regular pb-[0.15rem]'>Loading ...</div>
+                    <div className='text-gray-300 medium text-wrap'>/v1/me/player/recently-played</div>
+                </div> 
+            ) : error ? (
+                <div className='w-48 text-xs'>
+                    <div className='text-gray-400 regular pb-[0.15rem]'>Spotify Error</div>
+                    <div className='text-gray-300 medium text-wrap'>Unable to retrieve data.</div>
+                </div> 
+            ) : (
+                <div className='w-48 text-xs'>
+                    <div className='text-gray-400 regular pb-[0.15rem]'>Recently Played</div>
+                    <div className='text-gray-300 medium text-wrap'>{ track } by { artist }</div>
+                </div> 
+            )}
+        </a>
     )
 }
 
