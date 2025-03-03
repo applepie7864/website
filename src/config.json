@@ -17,8 +17,8 @@
             "title": "Software Engineer Intern",  
             "date": "Summer 2025",
             "location": "Vancouver, BC",
-            "website": "https://www.amazon.ca/",
-            "logo": ""
+            "website": "https://www.aboutamazon.ca/",
+            "logo": "https://cdn0.iconfinder.com/data/icons/most-usable-logos/120/Amazon-512.png"
         },
         { 
             "company": "Ford Pro", 
@@ -26,7 +26,7 @@
             "date": "Winter 2025",
             "location": "Toronto, ON",
             "website": "https://fordpro.ca/en-ca/",
-            "logo": ""
+            "logo": "https://www.detroitshirt.com/cdn/shop/files/STICK-FordScript-565633_1000x1000.png?v=1732033337"
         },
         { 
             "company": "Descartes Systems Group", 
@@ -34,7 +34,7 @@
             "date": "Summer 2024",
             "location": "Waterloo, ON",
             "website": "https://www.descartes.com/home",
-            "logo": ""
+            "logo": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/042016/untitled-1_203.png?itok=payCIdD4"
         },
         { 
             "company": "Eon Media", 
@@ -42,7 +42,7 @@
             "date": "Fall 2023",
             "location": "Toronto, ON",
             "website": "https://eonmedia.ai/",
-            "logo": ""
+            "logo": "https://i.tracxn.com/logo/company/eonmedia.ai_Logo_4ad0def7-06b9-40f1-bc1e-e41b2cecd0dc.jpg"
         }
     ],
     "extracurriculars": [

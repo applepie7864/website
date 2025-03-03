@@ -4,7 +4,6 @@ import axios from 'axios';
 import Spotify from '../assets/svg/Spotify';
 var Buffer = require('buffer').Buffer;
 
-
 const SpotifyCard = () => {
     const recently_played_endpoint = process.env.REACT_APP_SPOTIFY_RECENTLY_PLAYED_ENDPOINT ?? "";
     const token_endpoint = process.env.REACT_APP_SPOTIFY_TOKEN_ENDPOINT ?? "";
@@ -56,23 +55,23 @@ const SpotifyCard = () => {
         <a 
             href="https://open.spotify.com/user/5xb1ufphwez97tv2q5yu50eb0?si=dab77ec091e0407d" 
             target='_blank' 
-            className="bg-gray-50 dark:bg-gray-950 w-72 min-h-12 p-4 flex flex-row items-center justify-center rounded-full border-gray-200 dark:border-gray-800 border-2 gap-4 hover:scale-[1.01] cursor-pointer"
+            className="bg-gray-50 dark:bg-gray-950 w-64 min-h-12 p-3 flex flex-row items-center justify-center rounded-full border-gray-200 dark:border-gray-800 border-2 gap-4 hover:scale-[1.01] cursor-default"
         >
             <Spotify />
             { loading ? (
                 <div className='w-48 text-xs'>
-                    <div className='text-gray-400 regular pb-[0.15rem]'>Loading ...</div>
-                    <div className='text-gray-500 dark:text-gray-300 medium text-wrap'>/v1/me/player/recently-played</div>
+                    <div className='text-gray-600 dark:text-gray-400 regular pb-[0.15rem]'>Loading ...</div>
+                    <div className='text-gray-700 dark:text-gray-300 medium text-wrap'>/v1/me/player/recently-played</div>
                 </div> 
             ) : error ? (
                 <div className='w-48 text-xs'>
-                    <div className='text-gray-400 regular pb-[0.15rem]'>Spotify Error</div>
-                    <div className='text-gray-500 dark:text-gray-300 medium text-wrap'>Unable to retrieve data.</div>
+                    <div className='text-gray-600 dark:text-gray-400 regular pb-[0.15rem]'>Spotify Error</div>
+                    <div className='text-gray-700 dark:text-gray-300 medium text-wrap'>Unable to retrieve data.</div>
                 </div> 
             ) : (
                 <div className='w-48 text-xs'>
-                    <div className='text-gray-400 regular pb-[0.15rem]'>Recently Played</div>
-                    <div className='text-gray-500 dark:text-gray-300 medium text-wrap'>{ track } by { artist }</div>
+                    <div className='text-gray-600 dark:text-gray-400 regular pb-[0.15rem]'>Recently Played</div>
+                    <div className='text-gray-700 dark:text-gray-300 medium text-wrap'>{ track } by { artist }</div>
                 </div> 
             )}
         </a>

@@ -1,8 +1,8 @@
 export type Experience = {
-    company: String; 
-    title: String;
-    date: String;
-    location: String;
-    website: String;
-    logo: String;
+    company: string; 
+    title: string;
+    date: string;
+    location: string;
+    website: string;
+    logo: string;
 }
