@@ -42,58 +42,60 @@
             "date": "Fall 2023",
             "location": "Toronto, ON",
             "website": "https://eonmedia.ai/",
-            "logo": "https://i.tracxn.com/logo/company/eonmedia.ai_Logo_4ad0def7-06b9-40f1-bc1e-e41b2cecd0dc.jpg"
+            "logo": "https://pbs.twimg.com/profile_images/1897762131610624000/ncypBB6f_400x400.jpg"
         }
     ],
     "extracurriculars": [
         {
-            "group": "UW Blueprint",
-            "position": "Project Lead",
+            "company": "UW Blueprint",
+            "title": "Project Lead",
             "date": "Jan 2025 - Present",
-            "logo": "",
-            "link": "https://uwblueprint.org/"
+            "location": "Waterloo, ON",
+            "website": "https://uwblueprint.org/",
+            "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQE6BCFf_BSAuQ/company-logo_200_200/company-logo_200_200/0/1630625716169/uw_blueprint_logo?e=2147483647&v=beta&t=bPX8XcGcPOqz6Q-3f3yMVkvqdfSduBh4pL6wf-Nk06g"
         },
         {
-            "group": "UW Data Science Club",
-            "position": "Developer",
+            "company": "UW Data Science Club",
+            "title": "Project Developer",
             "date": "September 2024 - Present",
-            "logo": "",
-            "link": "https://www.uwdatascience.ca/"
+            "location": "Waterloo, ON",
+            "website": "https://www.uwdatascience.ca/",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfhce81m_0KR97075lK05J_gimUEs3PQ8CJA&s"
         }
     ],
     "projects": [
         {
             "name": "2048",
             "description": "Object oriented implementation of the popular webgame 2048",
-            "repo": "https://github.com/applepie7864/2048",
+            "link": "https://github.com/applepie7864/2048",
             "image": "",
             "technologies": ["Unity", "C#"]
         },
         {
             "name": "ISPY",
             "description": "Custom face recognition model integrated into a webcam application",
-            "repo": "https://github.com/applepie7864/ispy",
+            "link": "https://github.com/applepie7864/ispy",
             "image": "",
             "technologies": ["Keras", "OpenCV", "React", "Google Cloud", "Javascript", "Python"]
         },
         {
             "name": "Docuverse",
             "description": "AI chatbot application for querying your documents",
-            "repo": "https://github.com/applepie7864/docuverse",
+            "link": "https://github.com/applepie7864/docuverse",
             "image": "",
             "technologies": ["Langchain", "HuggingFace", "Streamlit", "Python"]
         },
         {
             "name": "CC3K",
             "description": "Terminal based dungeon crawling video game inspired by Rogue",
-            "repo": "https://github.com/applepie7864/cc3k",
+            "link": "https://github.com/applepie7864/cc3k",
             "image": "",
             "technologies": ["C++"]
         },
         {
             "name": "Apple Remake",
             "description": "Imitation of Apple's animated website",
-            "repo": "https://github.com/applepie7864/apple-remake",
+            "link": "https://github.com/applepie7864/apple-remake",
             "image": "",
             "technologies": ["HTML", "CSS", "Javascript", "Blender", "GSAP"]
         }

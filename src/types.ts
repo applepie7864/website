@@ -6,3 +6,11 @@ export type Experience = {
     website: string;
     logo: string;
 }
+
+export type Project = {
+    name: string;
+    description: string;
+    link: string;
+    image: string;
+    technologies: string[];
+}
