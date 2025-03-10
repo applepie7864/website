@@ -55,7 +55,7 @@ const SpotifyCard = () => {
         <a 
             href="https://open.spotify.com/user/5xb1ufphwez97tv2q5yu50eb0?si=dab77ec091e0407d" 
             target='_blank' 
-            className="bg-gray-50 dark:bg-gray-950 w-64 min-h-12 p-3 flex flex-row items-center justify-center rounded-full border-gray-200 dark:border-gray-800 border-2 gap-4 hover:scale-[1.01] cursor-default"
+            className="bg-gray-50 dark:bg-gray-950 w-72 min-h-12 p-3 flex flex-row items-center justify-center rounded-full border-gray-200 dark:border-gray-800 border-2 gap-4 hover:scale-[1.01] cursor-default"
         >
             <Spotify />
             { loading ? (
