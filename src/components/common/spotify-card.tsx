@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import querystring from 'querystring';
 import axios from 'axios';
-import Spotify from '../assets/svg/Spotify';
+import Spotify from '../svg/spotify';
 var Buffer = require('buffer').Buffer;
 
 const SpotifyCard = () => {

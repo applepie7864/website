@@ -1,10 +1,10 @@
-import EmailForm from "./components/EmailForm";
-import RectangleCard from "./components/RectangleCard";
-import SpotifyCard from "./components/SpotifyCard";
-import ThemeToggle from "./components/ThemeToggle";
-import ContactSection from "./sections/ContactSection";
-import ExperienceSection from "./sections/ExperienceSection";
-import ExtracurricularSection from "./sections/ExtracurricularSection";
+import EmailForm from "./components/sections/contact/contact-form";
+import RectangleCard from "./components/common/RectangleCard";
+import SpotifyCard from "./components/common/spotify-card";
+import ThemeToggle from "./components/common/theme-toggle";
+import ContactSection from "./components/sections/contact/main";
+import ExperienceSection from "./components/sections/ExperienceSection";
+import ExtracurricularSection from "./components/sections/ExtracurricularSection";
 import { Experience } from "./types";
 
 function App() {

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "SF-Pro-Display-Light"; 
+    src: local("SF-Pro-Display-Light"), url("../assets/fonts/SF-Pro-Display-Light.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "SF-Pro-Display-Regular"; 
+    src: local("SF-Pro-Display-Regular"), url("../assets/fonts/SF-Pro-Display-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "SF-Pro-Display-Medium"; 
+    src: local("SF-Pro-Display-Medium"), url("../assets/fonts/SF-Pro-Display-Medium.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "SF-Pro-Display-Bold"; 
+    src: local("SF-Pro-Display-Bold"), url("../assets/fonts/SF-Pro-Display-Medium.otf") format("truetype");
+}
+
+.light {
+    font-family: "SF-Pro-Display-Light";
+}
+
+.regular {
+    font-family: "SF-Pro-Display-Regular";
+}
+
+.medium {
+    font-family: "SF-Pro-Display-Medium";
+}
+
+.bold {
+    font-family: "SF-Pro-Display-Bold";
+}

@@ -13,12 +13,12 @@
     ],
     "experiences": [
         { 
-            "company": "Amazon", 
+            "company": "Amazon Web Services", 
             "title": "Software Engineer Intern",  
             "date": "Summer 2025",
             "location": "Vancouver, BC",
-            "website": "https://www.aboutamazon.ca/",
-            "logo": "https://cdn0.iconfinder.com/data/icons/most-usable-logos/120/Amazon-512.png"
+            "website": "https://aws.amazon.com/",
+            "logo": "https://figmaresource.com/wp-content/uploads/2024/05/AWS-Marketplace-Logo-PNG-to-svg-1.svg"
         },
         { 
             "company": "Ford Pro", 
@@ -43,9 +43,7 @@
             "location": "Toronto, ON",
             "website": "https://eonmedia.ai/",
             "logo": "https://pbs.twimg.com/profile_images/1897762131610624000/ncypBB6f_400x400.jpg"
-        }
-    ],
-    "extracurriculars": [
+        },
         {
             "company": "UW Blueprint",
             "title": "Project Lead",
