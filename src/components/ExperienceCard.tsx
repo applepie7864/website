@@ -11,7 +11,7 @@ export default function ExperienceCard(props: ExperienceCardProps) {
     var url = ""
     if (props.companyName == "AMAZON WEB SERVICES") {
         // url = require("../assets/imgs/amazon.png")
-        url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf8_ACwdQT0NMs_ptU8917_1THnLQqxK_u8Q&s";
+        url = "https://figmaresource.com/wp-content/uploads/2024/05/AWS-Marketplace-Logo-PNG-to-svg-1.svg";
     } else if (props.companyName == "FORD PRO") {
         url = require("../assets/imgs/ford.png")
     } else if (props.companyName == "DESCARTES") {
