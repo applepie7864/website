@@ -6,7 +6,7 @@ export default function Experience() {
     <section id="experience" className='pl-[34.5rem] pr-20 pt-16 flex flex-col items-center justify-center gap-4'>
       <ExperienceCard 
         website="https://www.amazon.ca/"
-        companyName='AMAZON'
+        companyName='AMAZON WEB SERVICES'
         position='Software Engineer Intern' 
         date='May 2025 - Aug 2025'
         location='Vancouver, BC, Canada'
