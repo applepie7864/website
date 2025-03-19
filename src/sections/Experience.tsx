@@ -6,7 +6,7 @@ export default function Experience() {
     <section id="experience" className='pl-[34.5rem] pr-20 pt-16 flex flex-col items-center justify-center gap-4'>
       <ExperienceCard 
         website="https://www.amazon.ca/"
-        companyName='AWS'
+        companyName='Amazon Web Services'
         position='Software Engineer Intern' 
         date='May 2025 - Aug 2025'
         location='Vancouver, BC, Canada'
@@ -14,7 +14,7 @@ export default function Experience() {
       />
       <ExperienceCard 
         website="https://www.fordpro.com/en-us/"
-        companyName='FORD PRO'
+        companyName='Ford Pro'
         position='Software Engineer Intern' 
         date='Jan 2025 - Apr 2025'
         location='Oakville, ON, Canada'
@@ -22,7 +22,7 @@ export default function Experience() {
       />
       <ExperienceCard 
         website="https://www.descartes.com/home"
-        companyName='DESCARTES'
+        companyName='Descartes Systems Group'
         position='Software Engineer Intern' 
         date='May 2024 - Aug 2024'
         location='Waterloo, ON, Canada'
@@ -30,7 +30,7 @@ export default function Experience() {
       />
       <ExperienceCard 
         website="https://eonmedia.ai/"
-        companyName='EON MEDIA'
+        companyName='Eon Media'
         position='Software Engineer Intern' 
         date='Sep 2023 - Dec 2023'
         location='Toronto, ON, Canada'

@@ -9,14 +9,13 @@ interface ExperienceCardProps {
 
 export default function ExperienceCard(props: ExperienceCardProps) {
     var url = ""
-    if (props.companyName == "AMAZON WEB SERVICES") {
-        // url = require("../assets/imgs/amazon.png")
-        url = "https://figmaresource.com/wp-content/uploads/2024/05/AWS-Marketplace-Logo-PNG-to-svg-1.svg";
-    } else if (props.companyName == "FORD PRO") {
+    if (props.companyName == "Amazon Web Services") {
+        url = require("../assets/imgs/amazon.png")
+    } else if (props.companyName == "Ford Pro") {
         url = require("../assets/imgs/ford.png")
-    } else if (props.companyName == "DESCARTES") {
+    } else if (props.companyName == "Descartes Systems Group") {
         url = require("../assets/imgs/descartes.png")
-    } else if (props.companyName == "EON MEDIA") {
+    } else if (props.companyName == "Eon Media") {
         url = require("../assets/imgs/eon.png")
     }
 
