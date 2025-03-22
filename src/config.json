@@ -1,16 +1,7 @@
 {
-    "hello": "Hi, I'm Annie 👋",
-    "description": "I'm passionate about leveraging technology to innovate and solve complex problems.",
-    "education": [
-        {
-            "school": "University of Waterloo",
-            "graduation": "May 2026",
-            "degree": "Bachelor of Computer Science",
-            "gpa": "3.7",
-            "website": "https://uwaterloo.ca/",
-            "logo": ""
-        }
-    ],
+    "name": "Annie Guo",
+    "title": "Software Engineer",
+    "description": "Hello, World! 👋 Thanks for visiting my personal portfolio! I'm a third year computer science student at the University of Waterloo, specializing in artificial intelligence. I love to problem solve, collaborate on coding projects and explore new technologies. Beyond academics, I also enjoy baking cookies and going ice skating :)",
     "experiences": [
         { 
             "company": "Amazon Web Services", 
@@ -18,7 +9,7 @@
             "date": "Summer 2025",
             "location": "Vancouver, BC",
             "website": "https://aws.amazon.com/",
-            "logo": "https://figmaresource.com/wp-content/uploads/2024/05/AWS-Marketplace-Logo-PNG-to-svg-1.svg"
+            "logo": "https://cdn0.iconfinder.com/data/icons/most-usable-logos/120/Amazon-512.png"
         },
         { 
             "company": "Ford Pro", 
@@ -26,7 +17,7 @@
             "date": "Winter 2025",
             "location": "Toronto, ON",
             "website": "https://fordpro.ca/en-ca/",
-            "logo": "https://www.detroitshirt.com/cdn/shop/files/STICK-FordScript-565633_1000x1000.png?v=1732033337"
+            "logo": "https://m.media-amazon.com/images/I/51aB7yqrJsL._AC_UF1000,1000_QL80_.jpg"
         },
         { 
             "company": "Descartes Systems Group", 
