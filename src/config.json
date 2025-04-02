@@ -1,55 +1,79 @@
 {
-    "name": "Annie Guo",
-    "title": "Software Engineer",
-    "description": "Hello, World! 👋 Thanks for visiting my personal portfolio! I'm a third year computer science student at the University of Waterloo, specializing in artificial intelligence. I love to problem solve, collaborate on coding projects and explore new technologies. Beyond academics, I also enjoy baking cookies and going ice skating :)",
+    "general": {
+        "name": "Annie Guo",
+        "title": "Software Engineer",
+        "description": "Hello, World! 👋 Thanks for visiting my personal portfolio! I'm a third year computer science student at the University of Waterloo, specializing in artificial intelligence. I love to problem solve, collaborate on coding projects and explore new technologies. Beyond academics, I also enjoy baking desserts and going ice skating :)",
+        "year": "2025",
+        "location": "Waterloo, ON"
+    },
+    "links": {
+        "linkedin": "https://www.linkedin.com/in/anniewguo/",
+        "github": "https://github.com/applepie7864",
+        "email": "mailto:anniewenqingguo@gmail.com",
+        "spotify": "https://open.spotify.com/user/5xb1ufphwez97tv2q5yu50eb0?si=bc90053bbe324a50",
+        "instagram": "https://www.instagram.com/anniewguo/",
+        "website": "https://anniewguo.com/"
+    },
     "experiences": [
         { 
-            "company": "Amazon Web Services", 
-            "title": "Software Engineer Intern",  
+            "company": "Amazon Web Services",
+            "title": "Software Developer", 
+            "type": "Internship", 
             "date": "Summer 2025",
             "location": "Vancouver, BC",
             "website": "https://aws.amazon.com/",
-            "logo": "https://pbs.twimg.com/media/GmnWciPaEAEOzWo?format=jpg&name=medium"
-        },
+            "logo": "https://pbs.twimg.com/media/GmnWciPaEAEOzWo?format=jpg&name=medium",
+            "summary": "Incoming ..."
+        }, 
         {
             "company": "UW Blueprint",
-            "title": "Project Lead",
+            "title": "Technical Lead",
+            "type": "Volunteering", 
             "date": "Jan 2025 - Present",
             "location": "Waterloo, ON",
             "website": "https://uwblueprint.org/",
-            "logo": "https://pbs.twimg.com/media/Gmna2CHXQAAlh24?format=png&name=360x360"
+            "logo": "https://pbs.twimg.com/media/Gmna2CHXQAAlh24?format=png&name=360x360",
+            "summary": "Spearheaded the development of a task management application for a nonprofit supporting homeless single mothers"
         },
         { 
             "company": "Ford Pro", 
-            "title": "Software Engineer Intern",  
+            "title": "Full Stack Engineer",  
+            "type": "Internship", 
             "date": "Winter 2025",
             "location": "Toronto, ON",
             "website": "https://fordpro.ca/en-ca/",
-            "logo": "https://pbs.twimg.com/media/GmnW8SfaEAA6mTI?format=jpg&name=900x900"
+            "logo": "https://pbs.twimg.com/media/GmnW8SfaEAA6mTI?format=jpg&name=900x900",
+            "summary": "Engineered backend features for a user creation microservice and built UI components for the dashboard"
         },
         {
             "company": "UW Data Science Club",
             "title": "Web Developer",
+            "type": "Volunteering", 
             "date": "Sep 2024 - Apr 2025",
             "location": "Waterloo, ON",
             "website": "https://www.uwdatascience.ca/",
-            "logo": "https://pbs.twimg.com/media/GmnbSdcaEAAgxNS?format=png&name=240x240"
+            "logo": "https://pbs.twimg.com/media/GmnbSdcaEAAgxNS?format=png&name=240x240",
+            "summary": "Collaborated on revamping the event registration system and verification flow, integrating QR code check-ins"
         },
         { 
             "company": "Descartes Systems Group", 
-            "title": "Software Engineer Intern",  
+            "title": "Software Engineer",  
+            "type": "Internship", 
             "date": "Summer 2024",
             "location": "Waterloo, ON",
             "website": "https://www.descartes.com/home",
-            "logo": "https://pbs.twimg.com/media/GmnWwv1aEAE0bAp?format=jpg&name=medium"
+            "logo": "https://pbs.twimg.com/media/GmnWwv1aEAE0bAp?format=jpg&name=medium",
+            "summary": "Built a geocoding service and migrated critical applications from legacy frameworks to .NET Core"
         },
         { 
             "company": "Eon Media", 
-            "title": "Machine Learning Engineer Intern",  
+            "title": "Machine Learning Engineer",  
+            "type": "Internship", 
             "date": "Fall 2023",
             "location": "Toronto, ON",
             "website": "https://eonmedia.ai/",
-            "logo": "https://pbs.twimg.com/media/GmnZ-GtXQAABDze?format=jpg&name=medium"
+            "logo": "https://pbs.twimg.com/media/GmnZ-GtXQAABDze?format=jpg&name=medium",
+            "summary": "Optimized video processing pipelines, enhanced AI features, helped reduce cloud costs, automated workflows, and developed secure API endpoints and efficient search functions"
         }
     ],
     "projects": [
@@ -88,13 +112,5 @@
             "link": "https://github.com/applepie7864/apple-remake",
             "technologies": ["HTML", "CSS", "Javascript", "Blender", "GSAP"]
         }
-    ],
-    "links": {
-        "linkedin": "https://www.linkedin.com/in/anniewguo/",
-        "github": "https://github.com/applepie7864",
-        "email": "mailto:anniewenqingguo@gmail.com",
-        "spotify": "https://open.spotify.com/user/5xb1ufphwez97tv2q5yu50eb0?si=bc90053bbe324a50",
-        "instagram": "https://www.instagram.com/anniewguo/",
-        "website": "https://anniewguo.com/"
-    }
+    ]
 }
