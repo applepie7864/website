@@ -1,4 +1,7 @@
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
+import "@theme-toggles/react/css/Lightbulb.css"
+import {Lightbulb} from "@theme-toggles/react";
+import "../../styles/svg.css"
 
 const ThemeToggle = () => {
     const [theme, setTheme] = useState(() => {
@@ -15,9 +18,16 @@ const ThemeToggle = () => {
     }, [theme]);
 
     return (
-        <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
-            {theme === "dark" ? "Dark" : "Light"}
-        </button>
+        <div className="w-16 h-16 flex items-center justify-center">
+            <Lightbulb
+                className="scale-[3.5] text-yellow-500"
+                onToggle={() => setTheme(theme === "light" ? "dark" : "light")}
+                toggled={theme === "dark"}
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+            />
+        </div>
     );
 }
 
