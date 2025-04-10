@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import {useEffect, useRef, useState} from 'react';
 import querystring from 'querystring';
 import axios from 'axios';
 import Spotify from '../svg/spotify';
@@ -22,6 +22,9 @@ const SpotifyCard = () => {
     const [error, setError] = useState(false);
     const [loading, setLoading] = useState(true);
 
+    const spotifyContainerRef = useRef<HTMLDivElement>(null);
+    const [animate, setAnimate] = useState(false);
+
     useEffect(() => {
         axios(token_endpoint, {
             headers: {
@@ -42,6 +45,13 @@ const SpotifyCard = () => {
                     setArtist(currently_playing_response.data.item.artists[0].name)
                     setTrack(currently_playing_response.data.item.name)
                     setActive(true)
+
+                    const spotifyContainer = spotifyContainerRef.current;
+                    if (spotifyContainer && spotifyContainer.scrollWidth > spotifyContainer.clientWidth) {
+                        setAnimate(true);
+                    } else {
+                        setAnimate(false);
+                    }
                 }
                 setLoading(false)
             }).catch((currently_playing_error) => {
@@ -57,22 +67,33 @@ const SpotifyCard = () => {
     }, []);
 
     return (
-        <a
-            href="https://open.spotify.com/user/5xb1ufphwez97tv2q5yu50eb0?si=dab77ec091e0407d"
-            target='_blank'
-            className="bg-gray-50 dark:bg-gray-950 w-80 flex flex-row items-center justify-center p-2 rounded-full border-2 border-gray-200 dark:border-gray-800 cursor-default"
-            rel="noreferrer"
-        >
+        <div className="bg-gray-50 dark:bg-gray-950 w-80 p-2 flex flex-row items-center justify-center rounded-full border-2 border-gray-200 dark:border-gray-800">
             <Spotify/>
             <div className='w-4/5 p-2 flex flex-col items-start justify-center'>
                 <div className='text-sm text-gray-500 medium'>
-                    {loading ? "Loading ..." : error ? "Spotify Error" : active ? "Now Playing" : "Spotify Offline"}
+                    {
+                        loading
+                            ? "Loading ..."
+                            : error
+                                ? "Spotify Error"
+                                : active
+                                    ? "Now Playing"
+                                    : "Spotify Offline"
+                    }
                 </div>
-                <div className='text-md text-gray-700 dark:text-gray-300 regular text-wrap'>
-                    {loading ? "/v1/me/player/currently-playing" : error ? "Unable to retrieve data." : active ? track + " by " + artist : "It's quiet right now."}
+                <div className='w-[95%] text-md text-gray-700 dark:text-gray-300 regular overflow-hidden whitespace-nowrap' ref={spotifyContainerRef}>
+                    {
+                        loading
+                            ? "/v1/me/player/currently-playing"
+                            : error
+                                ? "Unable to retrieve data."
+                                : active
+                                    ? <div className={ animate ? "spotifyCycle inline-block" : ""}>{track} by {artist}</div>
+                                    : "It's quiet right now."
+                    }
                 </div>
             </div>
-        </a>
+        </div>
     )
 }
 

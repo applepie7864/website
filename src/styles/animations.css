@@ -1,0 +1,15 @@
+@keyframes spotifyCycle {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    0% {
+        transform: translateX(0%);
+    }
+}
+
+.spotifyCycle {
+    animation: spotifyCycle 20s ease-in-out infinite;
+}
