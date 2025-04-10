@@ -1,6 +1,6 @@
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import "@theme-toggles/react/css/Lightbulb.css"
-import {Lightbulb} from "@theme-toggles/react";
+import { Lightbulb } from "@theme-toggles/react";
 import "../../styles/svg.css"
 
 const ThemeToggle = () => {
