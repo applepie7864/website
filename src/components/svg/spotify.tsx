@@ -1,10 +1,12 @@
+import config from '../../config.json'
+
 export default function Spotify() {
     return (
         <a
-            href="https://open.spotify.com/user/5xb1ufphwez97tv2q5yu50eb0?si=dab77ec091e0407d"
+            href={config.links.spotify}
             target='_blank'
             rel="noreferrer"
-            className="w-1/5 p-2 cursor-pointer hover:scale-105"
+            className="w-1/5 p-2 cursor-pointer hover:scale-[1.02]"
         >
             <svg viewBox="0 0 20 20" version="1.1"
                  xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#1DB954">

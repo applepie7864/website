@@ -18,8 +18,7 @@
     "experiences": [
         { 
             "company": "Amazon Web Services",
-            "title": "Software Developer", 
-            "type": "Internship", 
+            "title": "Software Engineer Intern",
             "date": "Summer 2025",
             "location": "Vancouver, BC",
             "website": "https://aws.amazon.com/",
@@ -29,17 +28,15 @@
         {
             "company": "UW Blueprint",
             "title": "Technical Lead",
-            "type": "Volunteering", 
             "date": "Jan 2025 - Present",
             "location": "Waterloo, ON",
             "website": "https://uwblueprint.org/",
             "logo": "https://pbs.twimg.com/media/Gmna2CHXQAAlh24?format=png&name=360x360",
-            "summary": "Led the development of a task management application for a nonprofit supporting homeless mothers"
+            "summary": "Led the development of a task management application for a nonprofit organization supporting homeless mothers"
         },
         { 
             "company": "Ford Pro", 
-            "title": "Full Stack Engineer",  
-            "type": "Internship", 
+            "title": "Software Engineer Intern",
             "date": "Winter 2025",
             "location": "Toronto, ON",
             "website": "https://fordpro.ca/en-ca/",
@@ -49,17 +46,15 @@
         {
             "company": "UW Data Science Club",
             "title": "Web Developer",
-            "type": "Volunteering", 
             "date": "Sep 2024 - Apr 2025",
             "location": "Waterloo, ON",
             "website": "https://www.uwdatascience.ca/",
             "logo": "https://pbs.twimg.com/media/GmnbSdcaEAAgxNS?format=png&name=240x240",
-            "summary": "Collaborated on revamping the event registration system and verification flow, integrating QR code check-ins"
+            "summary": "Refactored the event registration flow and verification system by integrating QR code check-ins"
         },
         { 
             "company": "Descartes Systems Group", 
-            "title": "Software Engineer",  
-            "type": "Internship", 
+            "title": "Software Engineer Intern",
             "date": "Summer 2024",
             "location": "Waterloo, ON",
             "website": "https://www.descartes.com/home",
@@ -68,13 +63,12 @@
         },
         { 
             "company": "Eon Media", 
-            "title": "Machine Learning Engineer",  
-            "type": "Internship", 
+            "title": "Machine Learning Engineer Intern",
             "date": "Fall 2023",
             "location": "Toronto, ON",
             "website": "https://eonmedia.ai/",
             "logo": "https://pbs.twimg.com/media/GmnZ-GtXQAABDze?format=jpg&name=medium",
-            "summary": "Optimized video processing pipelines, enhanced AI features, helped reduce cloud costs, automated workflows, and developed secure API endpoints and efficient search functions"
+            "summary": "Optimized video processing pipelines and AI features, helped to reduce cloud costs and automate workflows, and developed secure API endpoints and efficient search functions"
         }
     ],
     "projects": [

@@ -72,23 +72,17 @@ const SpotifyCard = () => {
             <div className='w-4/5 p-2 flex flex-col items-start justify-center'>
                 <div className='text-sm text-gray-500 medium'>
                     {
-                        loading
-                            ? "Loading ..."
-                            : error
-                                ? "Spotify Error"
-                                : active
-                                    ? "Now Playing"
+                        loading ? "Loading ..."
+                            : error ? "Spotify Error"
+                                : active ? "Now Playing"
                                     : "Spotify Offline"
                     }
                 </div>
                 <div className='w-[95%] text-md text-gray-700 dark:text-gray-300 regular overflow-hidden whitespace-nowrap' ref={spotifyContainerRef}>
                     {
-                        loading
-                            ? "/v1/me/player/currently-playing"
-                            : error
-                                ? "Unable to retrieve data."
-                                : active
-                                    ? <div className={ animate ? "spotifyCycle inline-block" : ""}>{track} by {artist}</div>
+                        loading ? "/v1/me/player/currently-playing"
+                            : error ? "Unable to retrieve data."
+                                : active ? <div className={ animate ? "spotifyCycle inline-block" : ""}>{track} by {artist}</div>
                                     : "It's quiet right now."
                     }
                 </div>
