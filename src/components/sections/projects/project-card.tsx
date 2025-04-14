@@ -1,22 +1,35 @@
-export {}
-// import { Experience } from "../types"
-//
-// const RectangleCard = ({ company, title, date, location, website, logo }: Experience) => {
-//   return (
-//     <a href={website} target="_blank" className="w-1/2 flex flex-row items-center justify-between hover:scale-[1.01] cursor-default bg-gray-50 dark:bg-gray-950 py-4 px-6 rounded-lg border-gray-200 dark:border-gray-800 border-2">
-//       <div className="flex flex-row items-center gap-4">
-//           <img src={logo} alt="logo" className="w-12 h-12 rounded-full" />
-//           <div className="flex flex-col items-start">
-//               <div className="semi-bold text-xl text-gray-700 dark:text-gray-300">{company}</div>
-//               <div className="regular text-l text-gray-600 dark:text-gray-400">{title}</div>
-//           </div>
-//       </div>
-//       <div className="flex flex-col items-end">
-//           <div className="semi-bold text-l text-gray-700 dark:text-gray-300">{date}</div>
-//           <div className="regular text-m text-gray-600 dark:text-gray-400">{location}</div>
-//       </div>
-//     </a>
-//   )
-// }
-//
-// export default RectangleCard
+import { useState } from "react";
+import { Project } from "../../../types"
+import Github from "../../svg/github";
+
+const ProjectCard = ({ id, name, description, link, technologies }: Project) => {
+    const images = [
+        require("../../../assets/imgs/apple.png"), 
+        require("../../../assets/imgs/cc3k.png"),
+        require("../../../assets/imgs/docuverse.png"),
+        require("../../../assets/imgs/ispy.png"),
+        require("../../../assets/imgs/2048.png")
+    ]
+
+    return (
+        <div className="w-80 h-[22rem] rounded-md border-2 border-gray-200 dark:border-gray-800 p-4">
+            <img src={images[id]} alt="screenshot" className="w-full h-3/5 rounded-md border-2 border-gray-200 dark:border-gray-800 object-cover" />
+            <div className="p-1 flex flex-col justify-between h-2/5">
+                <div className="flex flex-row items-center gap-2">
+                    <div className="medium text-lg text-gray-700 dark:text-gray-300">{name}</div>
+                    <a href={link} target="_blank" rel="noreferrer" className="cursor-pointer">
+                        <Github />
+                    </a>
+                </div>
+                <div className="regular text-md text-gray-500 mb-2">{description}</div>
+                <div className="flex flex-row gap-1">
+                    {technologies.map((technology: string) => (
+                        <div className="px-2 py-1 rounded-md border-[1.5px] border-gray-200 dark:border-gray-800 regular text-xs text-gray-700 dark:text-gray-300">{technology}</div>
+                    ))}
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default ProjectCard;

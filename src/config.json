@@ -68,7 +68,7 @@
             "location": "Toronto, ON",
             "website": "https://eonmedia.ai/",
             "logo": "https://pbs.twimg.com/media/GmnZ-GtXQAABDze?format=jpg&name=medium",
-            "summary": "Optimized video processing pipelines and AI features, helped to reduce cloud costs and automate workflows, and developed secure API endpoints and efficient search functions"
+            "summary": "Developed AI features, search functions and API endpoints, optimized video processing pipelines, helped to reduce cloud costs and automated workflows"
         }
     ],
     "projects": [
@@ -77,21 +77,21 @@
             "name": "2048",
             "description": "Object oriented implementation of the popular webgame 2048",
             "link": "https://github.com/applepie7864/2048",
-            "technologies": ["Unity", "C#"]
+            "technologies": ["Unity", "C#", "HTML"]
         },
         {
             "id": 3,
-            "name": "ISPY",
+            "name": "iSpy",
             "description": "Custom face recognition model integrated into a webcam application",
             "link": "https://github.com/applepie7864/ispy",
-            "technologies": ["Keras", "OpenCV", "React", "Google Cloud", "Javascript", "Python"]
+            "technologies": ["Tensorflow", "OpenCV", "React"]
         },
         {
             "id": 2,
             "name": "Docuverse",
             "description": "AI chatbot application for querying your documents",
             "link": "https://github.com/applepie7864/docuverse",
-            "technologies": ["Langchain", "HuggingFace", "Streamlit", "Python"]
+            "technologies": ["Langchain", "Streamlit", "Python"]
         },
         {
             "id": 1, 
@@ -103,9 +103,15 @@
         {
             "id": 0,
             "name": "Apple Remake",
-            "description": "Imitation of Apple's animated website",
+            "description": "An animated experience modeled after Apple's website",
             "link": "https://github.com/applepie7864/apple-remake",
-            "technologies": ["HTML", "CSS", "Javascript", "Blender", "GSAP"]
+            "technologies": ["Javascript", "Blender", "CSS"]
         }
-    ]
+    ],
+    "education": {
+        "school": "University of Waterloo",
+        "gpa": "3.7",
+        "degree": "Bachelor of Computer Science, AI Specialization",
+        "graduation": "May 2027"
+    }
 }

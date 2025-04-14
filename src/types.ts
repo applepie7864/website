@@ -9,7 +9,7 @@ export type Experience = {
 };
 
 export type Project = {
-    id: string;
+    id: number;
     name: string;
     description: string;
     link: string;

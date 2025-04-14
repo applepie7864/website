@@ -17,16 +17,16 @@ const ExperienceCard = ({company, title, date, location, website, logo, summary}
             </a>
             {
                 hover ? (
-                    <div className="w-11/12 px-2 text-gray-500 flex flex-row items-center">{summary}</div>
+                    <div className="w-11/12 px-2 text-gray-500 regular flex flex-row items-center">{summary}</div>
                 ) : (
                     <div className="w-11/12 flex flex-row px-2 items-center justify-between">
                         <div className="flex flex-col items-start justify-center">
-                            <div className="font-bold text-lg text-gray-700 dark:text-gray-300">{company}</div>
-                            <div className="font-medium text-md text-gray-500">{title}</div>
+                            <div className="medium text-lg text-gray-700 dark:text-gray-300">{company}</div>
+                            <div className="regular text-md text-gray-500">{title}</div>
                         </div>
                         <div className="flex flex-col items-end justify-center">
-                            <div className="font-medium text-md text-gray-700 dark:text-gray-300 mt-[0.1rem]">{date}</div>
-                            <div className="font-medium text-md text-gray-500">{location}</div>
+                            <div className="regular text-md text-gray-700 dark:text-gray-300 mt-[0.1rem]">{date}</div>
+                            <div className="regular text-md text-gray-500">{location}</div>
                         </div>
                     </div>
                 )
