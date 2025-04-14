@@ -16,7 +16,7 @@ const ProjectCard = ({ id, name, description, link, technologies }: Project) => 
             <img src={images[id]} alt="screenshot" className="w-full h-3/5 rounded-md border-2 border-gray-200 dark:border-gray-800 object-cover" />
             <div className="p-1 flex flex-col justify-between h-2/5">
                 <div className="flex flex-row items-center gap-2">
-                    <div className="medium text-lg text-gray-700 dark:text-gray-300">{name}</div>
+                    <div className="medium text-lg text-gray-700 dark:text-gray-300 mt-1">{name}</div>
                     <a href={link} target="_blank" rel="noreferrer" className="cursor-pointer">
                         <Github />
                     </a>

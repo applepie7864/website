@@ -7,7 +7,7 @@ import { Project, Experience } from "./types"
 
 function App() {
     return (
-        <div className="bg-gray-50 dark:bg-gray-950 flex items-center justify-center flex-wrap">
+        <div className="bg-gray-50 dark:bg-gray-950 flex flex-col items-center justify-center gap-4">
             <ThemeToggle />
             <div className="w-full h-11/12 flex flex-col items-center justify-center gap-2">
                 {config.experiences.map((experience: Experience) => (
