@@ -11,7 +11,7 @@ export default function Instagram() {
         fillRule="evenodd"
       >
         <g
-          className="fill-current text-gray-700 dark:text-gray-300"
+          className="fill-current text-gray-800 dark:text-gray-200"
           transform="translate(-340.000000, -7439.000000)"
         >
           <g transform="translate(56.000000, 160.000000)">
