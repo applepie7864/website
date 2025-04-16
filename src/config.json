@@ -1,117 +1,116 @@
 {
-    "general": {
-        "name": "Annie Guo",
-        "title": "Software Engineer",
-        "description": "Hello, World! 👋 Thanks for visiting my personal portfolio! I'm a third year computer science student at the University of Waterloo, specializing in artificial intelligence. I love to problem solve, collaborate on coding projects and explore new technologies. Beyond academics, I also enjoy baking desserts and going ice skating :)",
-        "year": "2025",
-        "location": "Waterloo, ON"
+  "general": {
+    "name": "Annie Guo",
+    "title": "Software Engineer",
+    "description": "Hello, World! 👋 Thanks for visiting my personal portfolio! I'm a third year computer science student at the University of Waterloo, specializing in artificial intelligence. I love to problem solve, collaborate on coding projects and explore new technologies. Beyond academics, I also enjoy baking desserts and going ice skating :)",
+    "year": "2025",
+    "location": "Waterloo, ON"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/anniewguo/",
+    "github": "https://github.com/applepie7864",
+    "email": "mailto:anniewenqingguo@gmail.com",
+    "spotify": "https://open.spotify.com/user/5xb1ufphwez97tv2q5yu50eb0?si=bc90053bbe324a50",
+    "instagram": "https://www.instagram.com/anniewguo/",
+    "resume": "/assets/resume.pdf"
+  },
+  "experiences": [
+    {
+      "company": "Amazon Web Services",
+      "title": "Software Engineer Intern",
+      "date": "Summer 2025",
+      "location": "Vancouver, BC",
+      "website": "https://aws.amazon.com/",
+      "logo": "/assets/imgs/companies/amazon.jpg",
+      "summary": "Incoming ..."
     },
-    "links": {
-        "linkedin": "https://www.linkedin.com/in/anniewguo/",
-        "github": "https://github.com/applepie7864",
-        "email": "mailto:anniewenqingguo@gmail.com",
-        "spotify": "https://open.spotify.com/user/5xb1ufphwez97tv2q5yu50eb0?si=bc90053bbe324a50",
-        "instagram": "https://www.instagram.com/anniewguo/",
-        "website": "https://anniewguo.com/",
-        "gallery": ""
+    {
+      "company": "UW Blueprint",
+      "title": "Technical Lead",
+      "date": "Jan 2025 - Present",
+      "location": "Waterloo, ON",
+      "website": "https://uwblueprint.org/",
+      "logo": "/assets/imgs/companies/blueprint.jpg",
+      "summary": "Led the development of a task management application for a nonprofit organization supporting homeless mothers"
     },
-    "experiences": [
-        { 
-            "company": "Amazon Web Services",
-            "title": "Software Engineer Intern",
-            "date": "Summer 2025",
-            "location": "Vancouver, BC",
-            "website": "https://aws.amazon.com/",
-            "logo": "https://pbs.twimg.com/media/GmnWciPaEAEOzWo?format=jpg&name=medium",
-            "summary": "Incoming ..."
-        }, 
-        {
-            "company": "UW Blueprint",
-            "title": "Technical Lead",
-            "date": "Jan 2025 - Present",
-            "location": "Waterloo, ON",
-            "website": "https://uwblueprint.org/",
-            "logo": "https://pbs.twimg.com/media/Gmna2CHXQAAlh24?format=png&name=360x360",
-            "summary": "Led the development of a task management application for a nonprofit organization supporting homeless mothers"
-        },
-        { 
-            "company": "Ford Pro", 
-            "title": "Software Engineer Intern",
-            "date": "Winter 2025",
-            "location": "Toronto, ON",
-            "website": "https://fordpro.ca/en-ca/",
-            "logo": "https://pbs.twimg.com/media/GmnW8SfaEAA6mTI?format=jpg&name=900x900",
-            "summary": "Engineered backend features for a user creation microservice and built UI components for the dashboard"
-        },
-        {
-            "company": "UW Data Science Club",
-            "title": "Web Developer",
-            "date": "Sep 2024 - Apr 2025",
-            "location": "Waterloo, ON",
-            "website": "https://www.uwdatascience.ca/",
-            "logo": "https://pbs.twimg.com/media/GmnbSdcaEAAgxNS?format=png&name=240x240",
-            "summary": "Refactored the event registration flow and verification system by integrating QR code check-ins"
-        },
-        { 
-            "company": "Descartes Systems Group", 
-            "title": "Software Engineer Intern",
-            "date": "Summer 2024",
-            "location": "Waterloo, ON",
-            "website": "https://www.descartes.com/home",
-            "logo": "https://pbs.twimg.com/media/GmnWwv1aEAE0bAp?format=jpg&name=medium",
-            "summary": "Built a geocoding service and migrated critical applications from legacy frameworks to .NET Core"
-        },
-        { 
-            "company": "Eon Media", 
-            "title": "Machine Learning Engineer Intern",
-            "date": "Fall 2023",
-            "location": "Toronto, ON",
-            "website": "https://eonmedia.ai/",
-            "logo": "https://pbs.twimg.com/media/GmnZ-GtXQAABDze?format=jpg&name=medium",
-            "summary": "Developed AI features, search functions and API endpoints, optimized video processing pipelines, helped to reduce cloud costs and automated workflows"
-        }
-    ],
-    "projects": [
-        {
-            "id": 4,
-            "name": "2048",
-            "description": "Object oriented implementation of the popular webgame 2048",
-            "link": "https://github.com/applepie7864/2048",
-            "technologies": ["Unity", "C#", "HTML"]
-        },
-        {
-            "id": 3,
-            "name": "iSpy",
-            "description": "Custom face recognition model integrated into a webcam application",
-            "link": "https://github.com/applepie7864/ispy",
-            "technologies": ["Tensorflow", "OpenCV", "React"]
-        },
-        {
-            "id": 2,
-            "name": "Docuverse",
-            "description": "AI chatbot application for querying your documents",
-            "link": "https://github.com/applepie7864/docuverse",
-            "technologies": ["Langchain", "Streamlit", "Python"]
-        },
-        {
-            "id": 1, 
-            "name": "CC3K",
-            "description": "Terminal based dungeon crawling video game inspired by Rogue",
-            "link": "https://github.com/applepie7864/cc3k",
-            "technologies": ["C++"]
-        },
-        {
-            "id": 0,
-            "name": "Apple Remake",
-            "description": "An animated experience modeled after Apple's website",
-            "link": "https://github.com/applepie7864/apple-remake",
-            "technologies": ["Javascript", "Blender", "CSS"]
-        }
-    ],
-    "education": {
-        "school": "University of Waterloo",
-        "gpa": "3.7",
-        "degree": "Bachelor of Computer Science, AI Specialization",
-        "graduation": "May 2027"
+    {
+      "company": "Ford Pro",
+      "title": "Software Engineer Intern",
+      "date": "Winter 2025",
+      "location": "Toronto, ON",
+      "website": "https://fordpro.ca/en-ca/",
+      "logo": "/assets/imgs/companies/ford.jpg",
+      "summary": "Engineered backend features for a user creation microservice and built UI components for the dashboard"
+    },
+    {
+      "company": "UW Data Science Club",
+      "title": "Web Developer",
+      "date": "Sep 2024 - Apr 2025",
+      "location": "Waterloo, ON",
+      "website": "https://www.uwdatascience.ca/",
+      "logo": "/assets/imgs/companies/dsc.jpg",
+      "summary": "Refactored the event registration flow and verification system by integrating QR code check-ins"
+    },
+    {
+      "company": "Descartes Systems Group",
+      "title": "Software Engineer Intern",
+      "date": "Summer 2024",
+      "location": "Waterloo, ON",
+      "website": "https://www.descartes.com/home",
+      "logo": "/assets/imgs/companies/descartes.jpg",
+      "summary": "Built a geocoding service and migrated critical applications from legacy frameworks to .NET Core"
+    },
+    {
+      "company": "Eon Media",
+      "title": "Machine Learning Engineer Intern",
+      "date": "Fall 2023",
+      "location": "Toronto, ON",
+      "website": "https://eonmedia.ai/",
+      "logo": "/assets/imgs/companies/eon.jpg",
+      "summary": "Developed AI features, search functions and API endpoints, optimized video processing pipelines, helped to reduce cloud costs and automated workflows"
     }
+  ],
+  "projects": [
+    {
+      "name": "2048",
+      "description": "Object oriented implementation of the popular webgame 2048",
+      "link": "https://github.com/applepie7864/2048",
+      "technologies": ["Unity", "C#", "HTML"],
+      "image": "/assets/imgs/projects/2048.png"
+    },
+    {
+      "name": "iSpy",
+      "description": "Custom face recognition model integrated into a webcam application",
+      "link": "https://github.com/applepie7864/ispy",
+      "technologies": ["Tensorflow", "OpenCV", "React"],
+      "image": "/assets/imgs/projects/ispy.png"
+    },
+    {
+      "name": "Docuverse",
+      "description": "AI chatbot application for querying your documents",
+      "link": "https://github.com/applepie7864/docuverse",
+      "technologies": ["Langchain", "Streamlit", "Python"],
+      "image": "/assets/imgs/projects/docuverse.png"
+    },
+    {
+      "name": "CC3K",
+      "description": "Terminal based dungeon crawling video game inspired by Rogue",
+      "link": "https://github.com/applepie7864/cc3k",
+      "technologies": ["C++"],
+      "image": "/assets/imgs/projects/cc3k.png"
+    },
+    {
+      "name": "Apple Remake",
+      "description": "An animated experience modeled after Apple's website",
+      "link": "https://github.com/applepie7864/apple-remake",
+      "technologies": ["Javascript", "Blender", "CSS"],
+      "image": "/assets/imgs/projects/apple.png"
+    }
+  ],
+  "education": {
+    "school": "University of Waterloo",
+    "gpa": "3.7",
+    "degree": "Bachelor of Computer Science, AI Specialization",
+    "graduation": "May 2027"
+  }
 }
