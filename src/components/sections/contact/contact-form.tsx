@@ -77,7 +77,7 @@ const ContactForm = () => {
       />
 
       <button
-        className="w-1/6 p-2 mt-2 bg-gray-800 dark:bg-gray-200 rounded-full regular text-md text-gray-300 dark:text-gray-700 hover:text-gray-500 dark:hover:text-gray-500"
+        className="w-1/6 p-2 mt-2 bg-gray-800 hover:bg-gray-700 dark:bg-gray-200 dark:hover:bg-gray-300 rounded-full regular text-md text-gray-300 dark:text-gray-700"
         type="submit"
       >
         Send

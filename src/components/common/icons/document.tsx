@@ -1,7 +1,7 @@
 export default function Document() {
   return (
     <svg
-      className="fill-current text-gray-800 dark:text-gray-200 hover:scale-105 transition-transform duration-200 ease-in-out"
+      className="fill-current hover:scale-105 transition-transform duration-200 ease-in-out"
       viewBox="5 6 5 20"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"

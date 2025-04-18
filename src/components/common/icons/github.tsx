@@ -11,7 +11,7 @@ export default function Github() {
         fillRule="evenodd"
       >
         <g
-          className="fill-current text-gray-800 dark:text-gray-200"
+          className="fill-current"
           transform="translate(-140.000000, -7559.000000)"
         >
           <g transform="translate(56.000000, 160.000000)">

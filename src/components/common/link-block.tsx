@@ -7,6 +7,7 @@ import Email from "./icons/email";
 import Document from "./icons/document";
 import Instagram from "./icons/instagram";
 import Spotify from "./icons/spotify";
+import Vsco from "./icons/vsco";
 
 const LinkBlock = ({
   showLinkedin = false,
@@ -14,10 +15,11 @@ const LinkBlock = ({
   showEmail = false,
   showInstagram = false,
   showSpotify = false,
-  showResume = false
+  showResume = false,
+  showVsco = false
 }: LinkBlockProps) => {
   return (
-    <div className="flex flex-row items-end justify-center gap-4 m-2 mb-20">
+    <div className="w-fit h-fit flex flex-row items-end justify-center gap-4 text-gray-800 dark:text-gray-200">
       { showLinkedin &&
         <a
           className="link-block-icon"
@@ -46,6 +48,16 @@ const LinkBlock = ({
           rel="noreferrer"
         >
           <Instagram />
+        </a>
+      }
+      { showVsco &&
+        <a
+          className="link-block-icon"
+          href={data.links.vsco}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Vsco />
         </a>
       }
       { showResume &&

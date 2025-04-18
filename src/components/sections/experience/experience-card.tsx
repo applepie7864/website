@@ -5,7 +5,7 @@ const ExperienceCard = ({company, title, date, location, website, logo, summary}
   const [hover, setHover] = useState(false);
   return (
     <div
-      className="w-1/2 p-2 flex flex-row cursor-default bg-gray-50 dark:bg-gray-950 rounded-md border-2 border-gray-200 dark:border-gray-800"
+      className="w-full p-2 flex flex-row cursor-default bg-gray-50 dark:bg-gray-950 rounded-md border-2 border-gray-200 dark:border-gray-800"
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
