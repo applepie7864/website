@@ -43,7 +43,7 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={(e) => sendEmail(e)}
-      className="w-1/2 m-2 flex flex-col gap-2"
+      className="w-full flex flex-col gap-2"
     >
       {error && <div className="regular text-md text-red-500">{error}</div>}
 

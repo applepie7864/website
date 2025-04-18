@@ -9,7 +9,7 @@ const ExperienceCard = ({company, title, date, location, website, logo, summary}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      <a href={website} target="_blank" rel="noreferrer" className="w-1/12 m-2">
+      <a href={website} target="_blank" rel="noreferrer" className="w-12 m-2">
         <img src={logo}
            alt="logo"
            className="rounded-full cursor-pointer hover:scale-[1.02] border-2 border-gray-200 dark:border-gray-800"

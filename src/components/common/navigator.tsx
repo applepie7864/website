@@ -38,7 +38,7 @@ export default function Navigator() {
     if (activeBlock.current) {
       activeBlock.current.style.transition = "transform 0.2s ease";
       activeBlock.current.style.transform = `translateY(${translationAmount}rem)`;
-    }
+    };
   }, [active]);
 
   function getTextStyles(section: string) {
@@ -47,12 +47,12 @@ export default function Navigator() {
       style += "text-gray-200 dark:text-gray-800";
     } else {
       style += "text-gray-800 dark:text-gray-200 hover:text-gray-500 dark:hover:text-gray-500";
-    }
+    };
     return style;
   };
 
   return (
-    <nav className="flex flex-col m-4 relative">
+    <nav className="flex flex-col relative">
       <div
         ref={activeBlock}
         className="w-64 h-12 bg-gray-800 dark:bg-gray-200 rounded-full absolute top-0 left-0"
@@ -88,5 +88,5 @@ export default function Navigator() {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};

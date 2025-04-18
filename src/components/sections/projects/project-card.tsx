@@ -4,7 +4,7 @@ import '../../../styles/icons.scss';
 
 const ProjectCard = ({ name, description, link, technologies, image }: Project) => {
   return (
-    <div className="w-80 h-[22rem] rounded-md border-2 border-gray-200 dark:border-gray-800 p-4">
+    <div className="w-[19.5rem] h-[22rem] rounded-md border-2 border-gray-200 dark:border-gray-800 p-4">
       <img src={image} alt="screenshot" className="w-full h-3/5 rounded-md border-2 border-gray-200 dark:border-gray-800 object-cover" />
       <div className="p-1 flex flex-col justify-between h-2/5">
         <div className="flex flex-row items-center gap-2">
