@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import querystring from 'querystring';
 import axios from 'axios';
-import '../../styles/icons.scss';
+
 import data from "../../config.json";
 import Spotify from './icons/spotify';
 
@@ -101,7 +101,7 @@ const SpotifyCard = () => {
   return (
     <div className="bg-gray-50 dark:bg-gray-950 w-80 p-2 flex flex-row items-center justify-center rounded-full border-2 border-gray-200 dark:border-gray-800">
       <a
-        className="spotify-card-icon m-2 text-gray-800 dark:text-gray-200"
+        className="spotify-card-icon m-2"
         href={data.links.spotify}
         target="_blank"
         rel="noreferrer"
@@ -117,7 +117,7 @@ const SpotifyCard = () => {
                   : "Spotify Offline"
           }
         </div>
-        <div className='w-[95%] text-md text-gray-800 dark:text-gray-200 regular overflow-hidden whitespace-nowrap' ref={spotifyContainerRef}>
+        <div className='w-[95%] text-base overflow-hidden whitespace-nowrap' ref={spotifyContainerRef}>
           {
             loading ? "/v1/me/player/currently-playing"
               : error ? "Unable to retrieve data."

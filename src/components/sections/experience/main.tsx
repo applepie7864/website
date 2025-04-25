@@ -1,4 +1,3 @@
-import React from 'react';
 import data from '../../../config.json';
 import { Experience } from '../../../types';
 import ExperienceCard from './experience-card';

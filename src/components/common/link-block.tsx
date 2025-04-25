@@ -1,5 +1,6 @@
 import data from "../../config.json"
 import { LinkBlockProps } from "../../types";
+
 import '../../styles/icons.scss';
 import Linkedin from "./icons/linkedin";
 import Github from "./icons/github";
@@ -19,7 +20,7 @@ const LinkBlock = ({
   showVsco = false
 }: LinkBlockProps) => {
   return (
-    <div className="w-fit h-fit flex flex-row items-end justify-center gap-4 text-gray-800 dark:text-gray-200">
+    <div className="w-fit h-fit flex flex-row items-end justify-center gap-4">
       { showLinkedin &&
         <a
           className="link-block-icon"

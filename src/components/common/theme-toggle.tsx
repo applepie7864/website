@@ -4,7 +4,7 @@ import { Within } from "@theme-toggles/react";
 
 const ThemeToggle = () => {
   const [theme, setTheme] = useState(() => {
-    return localStorage.getItem("theme") || "light";
+    return localStorage.getItem("theme") || "dark";
   });
 
   useEffect(() => {
@@ -18,7 +18,7 @@ const ThemeToggle = () => {
 
   return (
     <Within
-      className="scale-[3] text-gray-800 dark:text-gray-200"
+      className="scale-[3]"
       onToggle={() => setTheme(theme === "light" ? "dark" : "light")}
       toggled={theme === "dark"}
       placeholder={undefined}

@@ -24,4 +24,4 @@ export type LinkBlockProps = {
   showInstagram?: boolean;
   showResume?: boolean;
   showVsco?: boolean;
-}
+};

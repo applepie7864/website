@@ -43,9 +43,7 @@ export default function Navigator() {
 
   function getTextStyles(section: string) {
     var style = "w-fit h-fit flex flex-row items-center gap-4 cursor-pointer text-lg regular ";
-    if (section == active) {
-      style += "text-gray-200 dark:text-gray-800";
-    } else {
+    if (section !== active) {
       style += "text-gray-800 dark:text-gray-200 hover:text-gray-500 dark:hover:text-gray-500";
     };
     return style;

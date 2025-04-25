@@ -14,7 +14,6 @@
 
 .project-card-icon {
   svg {
-    margin-top: 2px;
     width: 20px;
     height: 20px;
   }
@@ -23,6 +22,22 @@
 .navigator-icon {
   svg {
     margin-bottom: 2px;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.warning-icon {
+  svg {
+    margin-bottom: 2px;
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.contact-form-icon {
+  svg {
+    margin-top: 1px;
     width: 16px;
     height: 16px;
   }

@@ -45,11 +45,11 @@ const ContactForm = () => {
       onSubmit={(e) => sendEmail(e)}
       className="w-full flex flex-col gap-2"
     >
-      {error && <div className="regular text-md text-red-500">{error}</div>}
+      {error && <div className="text-sm desktop:text-base text-red-500">{error}</div>}
 
-      <div className="w-full flex flex-row">
+      <div className="w-full flex flex-col desktop:flex-row gap-2">
         <input
-          className="flex flex-grow mr-2 px-3 py-2 bg-gray-50 dark:bg-gray-950 rounded-md border-2 border-gray-200 dark:border-gray-800 regular text-md text-gray-700 dark:text-gray-300 placeholder-gray-500 focus:outline-none"
+          className="w-full desktop:w-1/3 px-3 py-2 bg-gray-50 dark:bg-gray-950 rounded-md border-2 border-gray-200 dark:border-gray-800 text-sm desktop:text-base regular text-gray-800 dark:text-gray-200 placeholder-gray-500 focus:outline-none"
           type="text"
           autoComplete="none"
           placeholder="Name"
@@ -58,7 +58,7 @@ const ContactForm = () => {
         />
 
         <input
-          className="w-3/4 px-3 py-2 bg-gray-50 dark:bg-gray-950 rounded-md border-2 border-gray-200 dark:border-gray-800 regular text-md text-gray-700 dark:text-gray-300 placeholder-gray-500 focus:outline-none"
+          className="w-full desktop:w-2/3 px-3 py-2 bg-gray-50 dark:bg-gray-950 rounded-md border-2 border-gray-200 dark:border-gray-800 text-sm desktop:text-base regular text-gray-800 dark:text-gray-200 placeholder-gray-500 focus:outline-none"
           type="text"
           autoComplete="none"
           placeholder="Email"
@@ -69,7 +69,7 @@ const ContactForm = () => {
 
       <textarea
         rows={8}
-        className="w-full px-3 py-2 bg-gray-50 dark:bg-gray-950 rounded-md border-2 border-gray-200 dark:border-gray-800 regular text-md text-gray-700 dark:text-gray-300 placeholder-gray-500 focus:outline-none"
+        className="w-full px-3 py-2 bg-gray-50 dark:bg-gray-950 rounded-md border-2 border-gray-200 dark:border-gray-800 text-sm desktop:text-base regular text-gray-800 dark:text-gray-200 placeholder-gray-500 focus:outline-none"
         autoComplete="none"
         placeholder="Your Message Here"
         value={message}
@@ -77,7 +77,7 @@ const ContactForm = () => {
       />
 
       <button
-        className="w-1/6 p-2 mt-2 bg-gray-800 hover:bg-gray-700 dark:bg-gray-200 dark:hover:bg-gray-300 rounded-full regular text-md text-gray-300 dark:text-gray-700"
+        className="w-[100px] p-2 mt-2 bg-gray-800 hover:bg-gray-700 dark:bg-gray-200 dark:hover:bg-gray-300 rounded-full text-sm desktop:text-base regular text-gray-200 dark:text-gray-800"
         type="submit"
       >
         Send

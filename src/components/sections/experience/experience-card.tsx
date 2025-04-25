@@ -5,32 +5,46 @@ const ExperienceCard = ({company, title, date, location, website, logo, summary}
   const [hover, setHover] = useState(false);
   return (
     <div
-      className="w-full p-2 flex flex-row cursor-default bg-gray-50 dark:bg-gray-950 rounded-md border-2 border-gray-200 dark:border-gray-800"
+      className="w-full p-2 rounded-md border-2 border-gray-200 dark:border-gray-800 flex flex-row items-center justify-between cursor-default"
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      <a href={website} target="_blank" rel="noreferrer" className="w-12 m-2">
-        <img src={logo}
-           alt="logo"
-           className="rounded-full cursor-pointer hover:scale-[1.02] border-2 border-gray-200 dark:border-gray-800"
+      <a
+        href={website}
+        target="_blank"
+        rel="noreferrer"
+        className="w-10 desktop:w-14 p-1 flex flex-shrink-0 items-center justify-center"
+      >
+        <img
+          src={logo}
+          alt="logo"
+          className="desktop:hover:scale-[1.02] rounded-full border-2 border-gray-200 dark:border-gray-800 cursor-pointer"
         />
       </a>
-      {
-        hover ? (
-          <div className="w-11/12 px-2 text-gray-500 regular flex flex-row items-center">{summary}</div>
-        ) : (
-          <div className="w-11/12 flex flex-row px-2 items-center justify-between">
-            <div className="flex flex-col items-start justify-center">
-              <div className="medium text-lg text-gray-700 dark:text-gray-300">{company}</div>
-              <div className="regular text-md text-gray-500">{title}</div>
+
+      <div className="hidden desktop:block mx-2 flex flex-grow">
+        {
+          hover ? (
+            <div>{summary}</div>
+          ) : (
+            <div className="flex flex-row items-center justify-between">
+              <div className="flex flex-col items-start justify-center">
+                <div className="text-md medium">{company}</div>
+                <div className="text-md text-gray-500">{title}</div>
+              </div>
+              <div className="flex flex-col items-end justify-center">
+                <div className="mt-[0.1rem] text-md">{date}</div>
+                <div className="text-md text-gray-500">{location}</div>
+              </div>
             </div>
-            <div className="flex flex-col items-end justify-center">
-              <div className="regular text-md text-gray-700 dark:text-gray-300 mt-[0.1rem]">{date}</div>
-              <div className="regular text-md text-gray-500">{location}</div>
-            </div>
-          </div>
-        )
-      }
+          )
+        }
+      </div>
+
+      <div className="block desktop:hidden w-full mx-2 flex flex-col items-start justify-center">
+        <div className="text-sm medium">{company}</div>
+        <div className="text-xs text-gray-500">{title}</div>
+      </div>
     </div>
   );
 };
