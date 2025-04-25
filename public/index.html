@@ -2,10 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%REACT_APP_PUBLIC_URL%/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta content="Personal portfolio website for Annie Guo" />
     <title>Annie Guo</title>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=%REACT_APP_GOOGLE_TAG%"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '%REACT_APP_GOOGLE_TAG%');
+    </script>
   </head>
   <body>
     <div id="root"></div>
