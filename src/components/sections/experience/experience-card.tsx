@@ -25,7 +25,7 @@ const ExperienceCard = ({company, title, date, location, website, logo, summary}
       <div className="hidden desktop:block mx-2 flex flex-grow">
         {
           hover ? (
-            <div>{summary}</div>
+            <div className="text-md text-gray-500">{summary}</div>
           ) : (
             <div className="flex flex-row items-center justify-between">
               <div className="flex flex-col items-start justify-center">
