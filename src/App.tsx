@@ -17,7 +17,7 @@ function App() {
         className="hidden desktop:block w-[1200px] fade-in"
       >
         <SideBar />
-        <div className="ml-[500px] pr-20 py-20 flex flex-col gap-10">
+        <div className="ml-[500px] pr-20 py-20 flex flex-col gap-20">
           <ExperienceSection />
           <ProjectSection />
           <ContactSection />
@@ -35,7 +35,7 @@ function App() {
 
       <div
         id="mobile"
-        className="block desktop:hidden w-[300px] px-5 pt-10 pb-5 flex flex-col gap-10 fade-in"
+        className="block desktop:hidden w-full max-w-[350px] px-5 pt-14 pb-5 flex flex-col gap-10 fade-in"
       >
         <div className="flex flex-col items-left justify-center">
           <div className="text-5xl bold">{data.general.name}</div>

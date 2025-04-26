@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import data from "../../config.json";
+import Navigator from "./navigator";
 
 export default function SideBar() {
   const sideBarRef = useRef<HTMLDivElement>(null);
@@ -28,6 +29,7 @@ export default function SideBar() {
         <div className="mb-2 text-3xl medium text-gray-500">{data.general.title}</div>
         <div className="text-lg">{data.general.description}</div>
       </div>
+      <Navigator />
     </div>
   );
 };
