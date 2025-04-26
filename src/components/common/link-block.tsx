@@ -20,10 +20,10 @@ const LinkBlock = ({
   showVsco = false
 }: LinkBlockProps) => {
   return (
-    <div className="w-fit h-fit flex flex-row items-end justify-center gap-4">
+    <div className="w-fit h-fit flex flex-row items-end justify-center gap-2 desktop:gap-4">
       { showLinkedin &&
         <a
-          className="link-block-icon"
+          className="link-block-icon scale-[0.8] desktop:scale-100"
           href={data.links.linkedin}
           target="_blank"
           rel="noreferrer"
@@ -33,7 +33,7 @@ const LinkBlock = ({
       }
       { showGithub &&
         <a
-          className="link-block-icon"
+          className="link-block-icon scale-[0.8] desktop:scale-100"
           href={data.links.github}
           target="_blank"
           rel="noreferrer"
@@ -43,7 +43,7 @@ const LinkBlock = ({
       }
       { showInstagram &&
         <a
-          className="link-block-icon"
+          className="link-block-icon scale-[0.8] desktop:scale-100"
           href={data.links.instagram}
           target="_blank"
           rel="noreferrer"
@@ -53,7 +53,7 @@ const LinkBlock = ({
       }
       { showVsco &&
         <a
-          className="link-block-icon"
+          className="link-block-icon scale-[0.8] desktop:scale-100"
           href={data.links.vsco}
           target="_blank"
           rel="noreferrer"
@@ -63,7 +63,7 @@ const LinkBlock = ({
       }
       { showResume &&
         <a
-          className="link-block-icon"
+          className="link-block-icon scale-[0.8] desktop:scale-100"
           href={data.links.resume}
           target="_blank"
           rel="noreferrer"
@@ -73,7 +73,7 @@ const LinkBlock = ({
       }
       { showSpotify &&
         <a
-          className="link-block-icon"
+          className="link-block-icon scale-[0.8] desktop:scale-100"
           href={data.links.spotify}
           target="_blank"
           rel="noreferrer"
@@ -83,7 +83,7 @@ const LinkBlock = ({
       }
       { showEmail &&
         <a
-          className="link-block-icon"
+          className="link-block-icon scale-[0.8] desktop:scale-100"
           href={data.links.email}
           target="_blank"
           rel="noreferrer"

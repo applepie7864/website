@@ -31,11 +31,11 @@ export default function Navigator() {
           if (distance < min_distance) {
             min_distance = distance;
             current = i;
-          }
+          };
         });
         setActive(current);
-      }
-    }
+      };
+    };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -46,7 +46,7 @@ export default function Navigator() {
     if (activeBlock && activeBlock.current) {
       activeBlock.current.style.transition = "top 0.2s ease";
       activeBlock.current.style.top = `${top}rem`;
-    }
+    };
   }, [active]);
 
   function goTo(id: number) {
@@ -67,10 +67,10 @@ export default function Navigator() {
   function getTextStyles(id: number) {
     var style = "h-12 px-6 z-10 text-lg regular cursor-pointer flex flex-row items-center justify-center gap-4";
     if (id === active) {
-      style += " text-gray-200 dark:text-gray-800"
+      style += " text-gray-200 dark:text-gray-800";
     } else {
-      style += " hover:text-gray-500 dark:hover:text-gray-500"
-    }
+      style += " hover:text-gray-500 dark:hover:text-gray-500";
+    };
     return style;
   };
 

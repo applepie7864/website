@@ -18,7 +18,7 @@ const ThemeToggle = () => {
 
   return (
     <Within
-      className="scale-[3]"
+      className="scale-[1.8] dark:scale-[2]"
       onToggle={() => setTheme(theme === "light" ? "dark" : "light")}
       toggled={theme === "dark"}
       placeholder={undefined}

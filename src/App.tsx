@@ -1,7 +1,7 @@
 import data from "./config.json";
 
 import SideBar from "./components/common/side-bar";
-import Navigator from "./components/common/navigator";
+import ThemeToggle from "./components/common/theme-toggle";
 import LinkBlock from "./components/common/link-block";
 import SpotifyCard from "./components/common/spotify-card";
 
@@ -24,7 +24,10 @@ function App() {
           <div className="flex flex-col items-end">
             <SpotifyCard />
             <div className="pr-5 pt-7 flex flex-col items-end">
-              <LinkBlock showLinkedin showGithub showInstagram showVsco showResume />
+              <div className="flex flex-row gap-6">
+                <ThemeToggle />
+                <LinkBlock showLinkedin showGithub showInstagram showVsco showResume />
+              </div>
               <div className="mt-3 text-sm text-gray-500">
                 {"© " + data.general.year + " " + data.general.name + ". " + data.general.location}
               </div>
@@ -35,7 +38,7 @@ function App() {
 
       <div
         id="mobile"
-        className="block desktop:hidden w-full max-w-[350px] px-5 pt-14 pb-5 flex flex-col gap-10 fade-in"
+        className="block desktop:hidden w-full max-w-[350px] px-5 pt-10 pb-5 flex flex-col gap-10 fade-in"
       >
         <div className="flex flex-col items-left justify-center">
           <div className="text-5xl bold">{data.general.name}</div>
@@ -45,8 +48,11 @@ function App() {
         <ExperienceSection />
         <ProjectSection />
         <ContactSection />
-        <div className="w-full mt-10 text-xs text-gray-500 flex justify-center">
-          {"© " + data.general.year + " " + data.general.name + ". " + data.general.location}
+        <div className="w-full mt-10 flex flex-col items-center justify-center gap-2">
+          <LinkBlock showLinkedin showGithub showInstagram showVsco showResume />
+          <div className="text-xs text-gray-500 text-center">
+            {"© " + data.general.year + " " + data.general.name + ". " + data.general.location}
+          </div>
         </div>
       </div>
     </main>
