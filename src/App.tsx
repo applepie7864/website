@@ -26,7 +26,7 @@ function App() {
             <div className="pr-5 pt-7 flex flex-col items-end">
               <div className="flex flex-row gap-6">
                 <ThemeToggle />
-                <LinkBlock showLinkedin showGithub showInstagram showVsco showResume />
+                <LinkBlock showLinkedin showGithub showEmail showSpotify />
               </div>
               <div className="mt-3 text-sm text-gray-500">
                 {"© " + data.general.year + " " + data.general.name + ". " + data.general.location}
@@ -49,7 +49,7 @@ function App() {
         <ProjectSection />
         <ContactSection />
         <div className="w-full mt-10 flex flex-col items-center justify-center gap-2">
-          <LinkBlock showLinkedin showGithub showInstagram showVsco showResume />
+          <LinkBlock />
           <div className="text-xs text-gray-500 text-center">
             {"© " + data.general.year + " " + data.general.name + ". " + data.general.location}
           </div>
