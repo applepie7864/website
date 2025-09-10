@@ -23,7 +23,7 @@
       "location": "Vancouver, BC",
       "website": "https://aws.amazon.com/",
       "logo": "/assets/imgs/companies/amazon.jpg",
-      "summary": "Reduced EKS provisioning time by ~1 week through pipeline optimizations and contributed towards a CDK library used to launch production-ready Kubernetes environments"
+      "summary": "Contributed towards a CDK library used to launch production-ready Kubernetes environments and optimized infrastructure provisioning time"
     },
     {
       "company": "UW Blueprint",
