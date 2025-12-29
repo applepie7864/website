@@ -17,6 +17,24 @@
   },
   "experiences": [
     {
+      "company": "Databricks",
+      "title": "Software Engineer Intern",
+      "date": "Summer 2026",
+      "location": "Bellevue, WA",
+      "website": "https://www.databricks.com/",
+      "logo": "/assets/imgs/companies/databricks.jpg",
+      "summary": "Incoming ..."
+    },
+    {
+      "company": "Rippling",
+      "title": "Software Engineer Intern",
+      "date": "Winter 2026",
+      "location": "San Francisco, CA",
+      "website": "https://www.rippling.com/",
+      "logo": "/assets/imgs/companies/rippling.jpg",
+      "summary": "Incoming ..."
+    },
+    {
       "company": "Amazon Web Services",
       "title": "Software Engineer Intern",
       "date": "Summer 2025",
@@ -28,7 +46,7 @@
     {
       "company": "UW Blueprint",
       "title": "Technical Lead",
-      "date": "Jan 2025 - Present",
+      "date": "Jan 2025 - Dec 2025",
       "location": "Waterloo, ON",
       "website": "https://uwblueprint.org/",
       "logo": "/assets/imgs/companies/blueprint.jpg",
