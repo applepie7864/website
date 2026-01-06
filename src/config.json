@@ -94,7 +94,7 @@
       "name": "Marillac Place",
       "description": "Task management application for a women's homeless shelter",
       "link": "https://github.com/uwblueprint/marillac-place",
-      "technologies": ["React", "Typescript", "GraphQL", "PostgreSQL",],
+      "technologies": ["React", "Typescript", "GraphQL", "PostgreSQL"],
       "image": "/assets/imgs/projects/marillac.png"
     },
     {
