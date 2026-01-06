@@ -91,6 +91,13 @@
   ],
   "projects": [
     {
+      "name": "Marillac Place",
+      "description": "Task management application for a women's homeless shelter",
+      "link": "https://github.com/uwblueprint/marillac-place",
+      "technologies": ["React", "Typescript", "GraphQL", "PostgreSQL",],
+      "image": "/assets/imgs/projects/marillac.png"
+    },
+    {
       "name": "2048",
       "description": "Object oriented implementation of the popular webgame 2048",
       "link": "https://github.com/applepie7864/2048",
