@@ -98,11 +98,11 @@
       "image": "/assets/imgs/projects/marillac.png"
     },
     {
-      "name": "2048",
-      "description": "Object oriented implementation of the popular webgame 2048",
-      "link": "https://github.com/applepie7864/2048",
-      "technologies": ["Unity", "C#", "HTML"],
-      "image": "/assets/imgs/projects/2048.png"
+      "name": "Docuverse",
+      "description": "AI chatbot application for querying your documents",
+      "link": "https://github.com/applepie7864/docuverse",
+      "technologies": ["Langchain", "Streamlit", "Python"],
+      "image": "/assets/imgs/projects/docuverse.png"
     },
     {
       "name": "iSpy",
@@ -112,18 +112,11 @@
       "image": "/assets/imgs/projects/ispy.png"
     },
     {
-      "name": "Docuverse",
-      "description": "AI chatbot application for querying your documents",
-      "link": "https://github.com/applepie7864/docuverse",
-      "technologies": ["Langchain", "Streamlit", "Python"],
-      "image": "/assets/imgs/projects/docuverse.png"
-    },
-    {
-      "name": "CC3K",
-      "description": "Terminal based dungeon crawling video game inspired by Rogue",
-      "link": "https://github.com/applepie7864/cc3k",
-      "technologies": ["C++"],
-      "image": "/assets/imgs/projects/cc3k.png"
+      "name": "2048",
+      "description": "Object oriented implementation of the popular webgame 2048",
+      "link": "https://github.com/applepie7864/2048",
+      "technologies": ["Unity", "C#", "HTML"],
+      "image": "/assets/imgs/projects/2048.png"
     },
     {
       "name": "Apple Remake",
@@ -131,6 +124,13 @@
       "link": "https://github.com/applepie7864/apple-remake",
       "technologies": ["Javascript", "Blender", "CSS"],
       "image": "/assets/imgs/projects/apple.png"
+    },
+    {
+      "name": "CC3K",
+      "description": "Terminal based dungeon crawling video game inspired by Rogue",
+      "link": "https://github.com/applepie7864/cc3k",
+      "technologies": ["C++"],
+      "image": "/assets/imgs/projects/cc3k.png"
     }
   ],
   "education": {
