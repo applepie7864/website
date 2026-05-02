@@ -32,7 +32,7 @@
       "location": "San Francisco, CA",
       "website": "https://www.rippling.com/",
       "logo": "/assets/imgs/companies/rippling.jpg",
-      "summary": "Incoming ..."
+      "summary": "Decoupled versioning for independent components, migrated workflows onto Kubernetes with monitoring setup on Datadog"
     },
     {
       "company": "Amazon Web Services",
