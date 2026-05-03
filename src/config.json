@@ -32,7 +32,7 @@
       "location": "San Francisco, CA",
       "website": "https://www.rippling.com/",
       "logo": "/assets/imgs/companies/rippling.jpg",
-      "summary": "Decoupled versioning for independent components, migrated workflows onto Kubernetes with monitoring setup on Datadog"
+      "summary": "Decoupled versioning of ETL components enabling safe production testing and led migration of workflows onto Kubernetes"
     },
     {
       "company": "Amazon Web Services",
