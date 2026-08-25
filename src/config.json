@@ -23,7 +23,7 @@
       "location": "Bellevue, WA",
       "website": "https://www.databricks.com/",
       "logo": "/assets/imgs/companies/databricks.jpg",
-      "summary": "Incoming ..."
+      "summary": "Built a Rust-based Databricks node agent replacing kubelet, enabling unified workload orchestration"
     },
     {
       "company": "Rippling",
